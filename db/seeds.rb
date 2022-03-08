@@ -9,9 +9,9 @@
 Restaurant.destroy_all
 
 puts 'Creating restaurants...'
-resto_1 = Restaurant.create!(name: 'Le Roda', rating: 5)
+resto_1 = Restaurant.create!(name: 'Le Roda', rating: 5, address: 'François')
 puts "#{resto_1.name} has been created"
-resto_2 = Restaurant.create!(name: 'Le fromager', rating: 4)
+resto_2 = Restaurant.create!(name: 'Le fromager', rating: 4, address: 'Saint-Pierre')
 puts "#{resto_2.name} has been created"
-resto_3 = Restaurant.create!(name: 'L\'éphémère', rating: 1)
+resto_3 = Restaurant.create!(name: 'L\'éphémère', rating: 1, address: 'Saint-Pierre')
 puts "#{resto_3.name} has been created"
